@@ -1,32 +1,38 @@
 {
-  "name": "lint-staged-large-files",
+  "name": "lint-staged-filesize-limit",
   "version": "1.0.0",
   "description": "Prevent large files from being commited to git",
-  "main": "index.js",
+  "main": "src/index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brunocabral88/lint-staged-large-files.git"
+    "url": "git+https://github.com/brunocabral88/lint-staged-filesize-limit.git"
   },
   "keywords": [
     "lint-staged",
     "git",
     "pre-commit",
     "pre-push",
-    "large-files"
+    "filesize",
+    "limit"
+  ],
+  "files": [
+    "src"
   ],
   "author": "Bruno Farias",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brunocabral88/lint-staged-large-files/issues"
+    "url": "https://github.com/brunocabral88/lint-staged-filesize-limit/issues"
   },
-  "homepage": "https://github.com/brunocabral88/lint-staged-large-files#readme",
+  "homepage": "https://github.com/brunocabral88/lint-staged-filesize-limit#readme",
   "dependencies": {
     "yargs": "^17.0.0"
   },
   "engines": {
+    "node": ">=21.0.0",
     "npm": "please-use-yarn",
     "yarn": ">=2"
   },
