@@ -7,8 +7,6 @@ module.exports = function ({ maxFileSizeKb, files }) {
 	const SIZE_LIMIT_KB = maxFileSizeKb;
 	const filesOverLimit = [];
 
-	console.log({ maxFileSizeKb, files, SIZE_LIMIT_BYTES, SIZE_LIMIT_KB })
-
 	for (const file of files) {
 		const { size } = fs.statSync(file);
 		if (size > SIZE_LIMIT_BYTES) {

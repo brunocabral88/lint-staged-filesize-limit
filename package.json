@@ -7,6 +7,7 @@
   "scripts": {
     "start": "node src/index.js"
   },
+  "bin": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brunocabral88/lint-staged-filesize-limit.git"
@@ -32,8 +33,7 @@
     "yargs": "^17.0.0"
   },
   "engines": {
-    "node": ">=21.0.0",
-    "npm": "please-use-yarn",
+    "node": ">=16.0.0",
     "yarn": ">=2"
   },
   "packageManager": "yarn@3.3.1"
