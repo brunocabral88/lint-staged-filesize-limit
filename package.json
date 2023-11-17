@@ -1,6 +1,6 @@
 {
   "name": "lint-staged-filesize-limit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prevent large files from being commited to git",
   "main": "src/index.js",
   "type": "commonjs",
